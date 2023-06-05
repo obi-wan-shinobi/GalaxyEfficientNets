@@ -23,3 +23,11 @@ Visual classification of galaxies into morphological classes is a tiresome proce
 The project focused mainly on two problems i.e. a regression problem which involved calculating the vote-fractions of morphological features for a galaxy using CNNs and a classification problem where we eliminate the need for these vote fraction predictions and directly classify the given galaxy image into one of the 7 classes categorized by these vote fractions in the triaining data.
 
 We explored the usage of ensemble of EfficientNet architectures and achieved decent results with the vote-fraction predictions. The classification model achieved sound results with classification task and we successfully implemented a system that classifies given galaxy into its respective morphology
+
+# Results
+
+We achieved really decent results with the EfficientNet models but we decided to use an ensemble of more than one model to achieve a greater score so as to grab a place on the public leaderboard of the Galaxy Zoo 2 challenge. 
+
+Our results were graded using the standard competition metric, i.e. the rmse score. We achieved an rmse score of 0.07765 and ranked in the top 3 on the public leaderboard.
+
+The classification model provided us with decent accuracy of 93.7% on classifying the galaxies into 7 classes with an F1 score of 0.8857.
